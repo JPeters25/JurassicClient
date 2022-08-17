@@ -28,7 +28,7 @@ namespace JurassicClient.Models
       request.AddHeader("Content-Type", "application/json");
       request.AddJsonBody(newAnimal);
       var response = await client.ExecuteTaskAsync(request);
-    ]
+    }
 
     public static async Task Put(int id, string newAnimal)
     {
